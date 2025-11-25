@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IT Agency Landing Page</title>
+
+  <!-- toastify css and js -->
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <!-- tailwind css -->
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body class="   bg-gradient-to-r from-[#0a0f2d] to-[#001f4d] text-white flex justify-center py-10" >
+
+  <div class=" mt-28 w-[1100px] bg-[#061326] shadow-2xl rounded-xl p-10 relative overflow-hidden" id="ztn">
+
+    <!--  navbar -->
+    <header class="flex justify-between items-center mb-10">
+      <h1 class="text-2xl font-bold flex items-center gap-2">
+        <span class="w-3 h-3 bg-blue-500 rounded-full"></span>
+        BrandCircle
+      </h1>
+
+      <nav class="flex space-x-8 text-gray-300">
+        <a href="#" class="hover:text-white">Home</a>
+        <a href="#" class="hover:text-white">Services</a>
+        <a href="#" class="hover:text-white">About</a>
+        <a href="#" class="hover:text-white">Contact</a>
+        <a href="#" class="hover:text-white">FAQ</a>
+      </nav>
+    </header>
+
+    
+    <div class="grid grid-cols-2 gap-10 items-center relative">
+
+      <!-- left -->
+      <div>
+        <h2 class="text-4xl font-bold leading-tight mb-4">
+          Subscribe Now <br>
+          <span class="text-blue-400">to Our Newsletter</span>
+        </h2>
+
+        <p class="text-gray-400 mb-6">
+          সর্বশেষ টিপস, আপডেট ও নতুন ট্রেন্ড পেতে এখনই সাবস্ক্রাইব করুন।
+        </p>
+
+        <div class="space-y-3">
+          <input type="text" placeholder="Your Name" class="w-full bg-white  p-3 rounded-lg text-black">
+          <input type="email" placeholder="Your Email" class="w-full bg-white p-3 rounded-lg text-black">
+
+          <button class="px-6 py-3 rounded-md bg-gradient-to-r from-blue-500 to-blue-700 hover:opacity-90" id="Subscribe">
+            Subscribe
+          </button>
+        </div>
+      </div>
+
+      <!-- right6 img -->
+      <div class="relative">
+
+        <div class="shape-mask w-[380px] h-[420px] overflow-hidden shadow-2xl mx-auto">
+          <img src="../assets/img.avif" alt="hero" class="w-full h-full object-cover" />
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+  <script src="index.js"></script>
+</body>
+</html>

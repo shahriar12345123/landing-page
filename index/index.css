@@ -1,0 +1,30 @@
+/* Image Mask Shape Same as Design */
+.shape-mask {
+  clip-path: path(
+    "M 0 120 C 0 40 60 0 160 0 C 300 0 380 80 380 180 C 380 300 300 420 180 420 C 80 420 0 360 0 260 Z"
+  );
+}
+
+
+/* Subscribe button animation */
+@keyframes subscribe-click {
+  0% {
+    transform: scale(1);
+    background-color: #3b82f6; 
+  }
+  50% {
+    transform: scale(1.1);
+    background-color: #1e40af; 
+  }
+  100% {
+    transform: scale(1);
+    background-color: #3b82f6; 
+  }
+}
+
+.button-animate {
+  animation: subscribe-click 0.4s ease-in-out forwards;
+}
+.button-animate:active {
+  animation: subscribe-click 0.4s ease-in-out forwards;
+}
